@@ -1,0 +1,38 @@
+#mainPoll{
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.smallS{
+    width: 70px;
+    height: 50px;
+    border: 1px solid black;
+    box-sizing:border-box ;
+}
+
+#btns{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-top: 5px;
+}
+
+#btnStart{
+    background-color: green;
+    width: 70px;
+    height: 30px;
+}
+
+#btnStop{
+    background-color: #f60e0e;
+    width: 70px;
+    height: 30px;
+}
